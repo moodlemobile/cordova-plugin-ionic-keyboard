@@ -1,7 +1,7 @@
 {
-  "name": "cordova-plugin-ionic-keyboard",
-  "version": "2.2.0",
-  "description": "Ionic Keyboard Plugin",
+  "name": "@moodlehq/cordova-plugin-ionic-keyboard",
+  "version": "2.2.0-moodle.1",
+  "description": "Moodle's fork of Ionic Keyboard Plugin",
   "scripts": {
     "release": "standard-version -a",
     "pre-release": "standard-version -a -p --skip.changelog=true --skip.tag=true"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git"
+    "url": "https://github.com/moodlemobile/cordova-plugin-ionic-keyboard.git"
   },
   "keywords": [
     "cordova",
@@ -25,9 +25,9 @@
   "author": "Apache Software Foundation",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/ionic-team/cordova-plugin-ionic-keyboard/issues"
+    "url": "https://github.com/moodlemobile/cordova-plugin-ionic-keyboard/issues"
   },
-  "homepage": "https://github.com/ionic-team/cordova-plugin-ionic-keyboard#readme",
+  "homepage": "https://github.com/moodlemobile/cordova-plugin-ionic-keyboard#readme",
   "devDependencies": {
     "standard-version": "^7.0.0",
     "sync-cordova-xml2": "0.0.3"

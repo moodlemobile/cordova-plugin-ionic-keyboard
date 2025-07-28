@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:rim="http://www.blackberry.com/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-ionic-keyboard" version="2.2.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:rim="http://www.blackberry.com/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" id="@moodlehq/cordova-plugin-ionic-keyboard" version="2.2.0-moodle.1">
     <name>cordova-plugin-ionic-keyboard</name>
     <description>Ionic Keyboard Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,keyboard,ecosystem:cordova,cordova-ios,cordova-android</keywords>
-    <repo>https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git</repo>
-    <issue>https://github.com/ionic-team/cordova-plugin-ionic-keyboard/issues</issue>
+    <repo>https://github.com/moodlemobile/cordova-plugin-ionic-keyboard.git</repo>
+    <issue>https://github.com/moodlemobile/cordova-plugin-ionic-keyboard/issues</issue>
     <author>Apache Software Foundation</author>
 
     <engines>
