@@ -58,6 +58,9 @@ Keyboard.fireOnShowing = function (height) {
 };
 
 Keyboard.fireOnResize = function (height, screenHeight, ele) {
+    // Update the CSS variable with the height of the keyboard.
+    document.documentElement.style.setProperty('--keyboard-height', `${height}px`);
+
     if (!ele) {
         return;
     }
@@ -66,9 +69,6 @@ Keyboard.fireOnResize = function (height, screenHeight, ele) {
     } else {
         ele.style.height = (screenHeight - height) + 'px';
     }
-
-    // Update the CSS variable with the height of keyboard.
-    document.documentElement.style.setProperty('--keyboard-height', height > 0 ? `${height}px` : null);
 };
 
 Keyboard.hideFormAccessoryBar = function (hide, success) {

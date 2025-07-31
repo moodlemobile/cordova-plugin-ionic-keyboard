@@ -189,9 +189,7 @@ NSString* UITraitsClassString;
 
 - (void)setKeyboardHeight:(int)height delay:(NSTimeInterval)delay
 {
-    if (self.keyboardResizes != ResizeNone) {
-        [self setPaddingBottom: height delay:delay];
-    }
+    [self setPaddingBottom: height delay:delay];
 }
 
 - (void)setPaddingBottom:(int)paddingBottom delay:(NSTimeInterval)delay
@@ -247,6 +245,9 @@ NSString* UITraitsClassString;
             break;
         }
         default:
+            NSString *js = [NSString stringWithFormat:@"Keyboard.fireOnResize(%d, %d, null);",
+                            _paddingBottom, (int)(f.size.height - wf.origin.y)];
+            [self.commandDelegate evalJs:js];
             break;
     }
     [self resetScrollView];
