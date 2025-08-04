@@ -245,10 +245,12 @@ NSString* UITraitsClassString;
             break;
         }
         default:
+        {
             NSString *js = [NSString stringWithFormat:@"Keyboard.fireOnResize(%d, %d, null);",
                             _paddingBottom, (int)(f.size.height - wf.origin.y)];
             [self.commandDelegate evalJs:js];
             break;
+        }
     }
     [self resetScrollView];
 }
