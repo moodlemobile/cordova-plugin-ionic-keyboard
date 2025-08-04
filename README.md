@@ -19,5 +19,5 @@ You can see all the changes here: [master...moodlemobile:master](https://github.
 You can install this package using the [original installation instructions](https://github.com/ionic-team/cordova-plugin-ionic-keyboard#installation), but installing this package instead:
 
 ```sh
-cordova plugin add @moodlehq/cordova-plugin-ionic-keyboard@2.2.0-moodle.2
+cordova plugin add @moodlehq/cordova-plugin-ionic-keyboard@2.2.0-moodle.3
 ```
